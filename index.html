@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <link rel="stylesheet" href="./css/cookies.css">
+    <link rel="shortcut icon" href="./imagenes/borrar.png">
+</head>
+<body>
+    <header>
+        <h1>Aprende a trabajar con cookies</h1>
+    </header>
+    </br>
+    <div id="botones">
+        <button class="boton" >
+            <a href="../documento cookies/documento.html">Politica de cookies</a>
+        </button>
+        <input type="button" class="boton" value="Tabla de cookies" id="bTabla">
+        <input type="button" class="boton" value="Ocultar Tabla" id="ocultar">
+     
+    </div>
+    <div id="formulario">
+        <div>
+            <h2>Tarea</h2>
+            <select id="Tarea" placeholder="Tarea">
+                <option value="Estudiar">Estudiar</option>
+                <option value="Programar">Programar</option>
+                <option value="Mantenimiento">Mantenimiento</option>
+                <option value="Ocio">Ocio</option>
+            </select>
+       
+        </div>
+        <div>
+            <h2>Tiempo Programado &nbsp;&nbsp;
+            <input class="tiempo" type="time" id="TiempoProgramado"/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Tiempo Empleado &nbsp;&nbsp;
+            <input class="tiempo" type="time" id="TiempoEmpleado"/></h2>
+        </div>
+        <div>
+           
+        </div>
+        <div>
+            <h2>Descripcion</h2>
+            <textarea id="Descripcion" placeholder="Descripcion maximo 20 caracteres" maxlength="20"></textarea>
+        </div>
+        </br>
+        <div>
+            <input type="button" class="boton" value="Grabar Cookie" id="bGrabar">
+            <input type="reset" class="boton" value="Borrar Campos">
+   
+        </div>
+    </div>
+    </br>
+    <div id="cuerpo">
+    </div>
+</body>
+<script src="./js/funciones.js"></script>
+</html>

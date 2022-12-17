@@ -1,0 +1,154 @@
+
+body {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-image: url("/imagenes/galletas.webp");
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "cookies";
+    src: url('../font/Cookie\ Dough.otf')
+}
+
+@font-face {
+    font-family: "cookies2";
+    src: url('../font/HU\ Cookie_m.ttf')
+}
+
+/*---------------------------------------------CABECERA------------------------------------------------*/
+
+h1 {
+    font-family: "cookies";
+    font-size: 50px;
+    float: left;
+    width: 100%;
+    color: #ecca62;
+}
+
+header {
+    text-align: center;
+    position: absolute;
+    background-color: #542f27e0;
+    top: 0%;
+    left: 30px;
+    width: 94%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    height: 100px;
+}
+/*-------------------------------PARTE DEL BODY---------------------------------------------*/
+#botones {
+    padding-top: 7px;
+    padding-left: 20px;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+    width: 45%;
+    height: 30px;
+    background-color: #542f2794;
+    border-radius: 10px;
+}
+
+h2 {
+    border-radius: 10px;
+    font-family: "cookies2";
+    font-size: 30px;
+    background-color: #f0d48186;
+}
+
+#formulario {
+    padding-left: 20px;
+    position: absolute;
+    width: 45%;
+    height: 300px;
+    top: 175px;
+    left: 30px;
+    background-color: #542f2794;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+/*-------------------------------TABLA---------------------------------------------*/
+table {
+    width: 94%;
+    position: absolute;
+    top: 515px;
+    left: 30px;
+    background-color: #f0d481b7;
+    border-radius: 10px;
+}
+
+th {
+    font-family: "cookies2";
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+td {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.botonborrar {
+
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+}
+
+.botonborrar:hover {
+    background-color: white;
+    color: red;
+    box-shadow: 10px 10px 10px 10px red;
+}
+
+/*-------------------------------BOTONES---------------------------------------------*/
+button {
+    border-radius: 10px;
+}
+
+
+input {
+    border-radius: 10px;
+    font-family: "cookies2";
+}
+
+a {
+    font-family: "cookies2";
+}
+
+textarea {
+    border-radius: 10px;
+}
+
+p {
+    font-family: "cookies2";
+}
+
+.boton {
+    font-size: 25px;
+    background-color: #f0d481;
+    color: #5a352c;
+}
+
+select {
+    border-radius: 10px;
+}
+
+.boton:hover {
+    background-color: #5a352c;
+    color: #f0d481;
+    box-shadow: 20px 20px 20px 20px #f5c229;
+}
+a:hover {
+    background-color: #5a352c;
+    color: #f0d481;
+}
+
+
+
